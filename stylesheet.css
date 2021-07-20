@@ -1,0 +1,174 @@
+body {
+    background-color:  rgb(232, 234, 250);
+    background-position: center;
+    width: 1200px;
+    margin: 0px auto 0px auto;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Zen Loop', monospace, sans-serif, Arial;
+}
+ 
+header h1 {
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-size: 45px;
+}
+
+#clicker_master {
+    background-color: rgb(38, 46, 115);
+    color: white;
+    text-shadow: 2px 2px rgb(38, 46, 115);
+    padding: 10px 7px 7px 7px;
+    border-radius: 20px;
+}
+
+nav {
+    height:80px
+}
+nav::before {
+    content: before;
+    width: 100px;
+    height: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+    clear: both;
+    font-size: 30px;
+    margin: 10px;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white; 
+    background-color: rgb(38, 46, 115);
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+
+li a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(38, 46, 115);
+}
+
+li a:active {
+    text-decoration: none;
+    background-color: lightgray;
+    color: rgb(178, 65, 196);
+}
+
+
+#intro {
+    position:relative;
+    height:500px;
+    width: 1200px;
+}
+
+#intro img {
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+.title_text {
+    position:relative;
+    z-index: 1;
+    top: 180px;
+    text-transform: uppercase;
+    color:white
+}
+
+#intro h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: -15px;
+}
+
+#intro h3 {
+    font-size: 20px;
+}
+
+#info_text {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px  black;
+    width:360px;
+    margin: 20px auto ;
+    background-color: rgb(38, 46, 115);
+    border-radius: 10px;
+}
+
+.article {
+   float: left;
+   margin: 30px;
+   width: 340px;
+   margin-right:auto;
+   margin-left: 3.7%;
+   border: 2px solid rgb(38, 46, 115);
+   height: 250px;
+   border-radius: 10px;
+   
+}
+
+figure h2 {
+    font-size: 40px;
+    color:rgb(38, 46, 115);
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 2px
+}
+
+figure h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: 10px;
+    color: rgb(178, 65, 196)
+}
+
+.article_icon {
+    display: block;
+    width:100px;
+    height:100px;
+    float:left;
+    margin-right: 4px
+}
+
+
+#download {
+    display: block;
+    clear: both
+}
+
+#download h1 {
+    color:white;
+    text-transform: uppercase;
+    background-color: rgb(38, 46, 115);
+    width:220px;
+    height:50px;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-size: 40px
+}
+
+#download a {
+    text-decoration: none; 
+    color: rgb(38, 46, 115)
+}
+
+#download a:hover{
+    height:100px;
+    width:100px;
+    text-decoration: none;
+    background-color: pink;
+    color:white;
+}
+footer {
+    padding-top: 30px;
+    text-align: justify;
+}
