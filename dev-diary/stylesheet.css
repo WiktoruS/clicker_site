@@ -1,0 +1,9 @@
+body {
+    background-color:  rgb(232, 234, 250);
+    background-position: center;
+    width: 1200px;
+    margin: 0px auto 0px auto;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Zen Loop', monospace, sans-serif, Arial;
+}
