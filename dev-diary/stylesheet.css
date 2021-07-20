@@ -1,3 +1,8 @@
+:root {
+    --myblue: #262e73;
+    --mypurple: #b241c4;
+}
+
 body {
     background-color:  rgb(232, 234, 250);
     background-position: center;
@@ -6,4 +11,28 @@ body {
     padding: 50px;
     text-align: center;
     font-family: 'Zen Loop', monospace, sans-serif, Arial;
+}
+
+header {
+    width: 430px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 50px;
+    margin: 0 auto;
+    background-color: var(--myblue);
+    color:white;
+}
+
+.in-text {
+    text-align:center;
+}
+
+.text {
+    color:white;
+    font-size: 25px;
+    background-color: gray;
+    text-transform: uppercase;
+    line-height: 45px;
+    text-shadow: 2px 2px black;
+    padding: 50px 50px 50px 50px
 }

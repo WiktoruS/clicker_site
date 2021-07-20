@@ -172,3 +172,49 @@ footer {
     padding-top: 30px;
     text-align: justify;
 }
+
+
+#dev_diary {
+    background-color: rgb(38, 46, 115);
+    width: 9%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    float: right;
+}
+
+#dev_diary:active {
+    background-color: rgb(38, 46, 115);
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px
+}
+
+#dev_diary_link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Zen Loop';
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#dev_diary_link:active {
+    text-decoration: none;
+    background-color: lightgray;
+    color: rgb(178, 65, 196);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#dev_diary_link:hover {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(38, 46, 115);    
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
